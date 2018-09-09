@@ -1,0 +1,14 @@
+//simple program to output name, (fake) student ID, and email address
+//on separate lines.
+#include <stdio.h>
+
+int main( void ){
+    printf( "Hello!\n"
+            "My name is XXX XXX.\n"
+            "To find me, look up my student ID:\n"
+            "00666013\n"
+            "Or, my university email address, which is:\n"
+            "XXX@uni.edu\n\n"
+            "Nice to meet you, and have a great day!\n" );
+    return 0;
+    }
